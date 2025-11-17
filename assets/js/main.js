@@ -239,17 +239,17 @@
 })();
 
   /**
-   * AJAX Loader for Services
-   */
-  
+ * AJAX Loader for Services
+ */
 document.addEventListener('DOMContentLoaded', () => {
   const links = document.querySelectorAll('.ajax-link');
   const servicesContainer = document.getElementById('services-container');
   const detailContainer = document.getElementById('service-detail');
+  const servicesSection = document.getElementById('services'); // Nueva referencia
 
   links.forEach(link => {
     link.addEventListener('click', e => {
-      e.preventDefault(); // Evita que se recargue la página
+      e.preventDefault();
       const url = link.getAttribute('href');
 
       // Mostrar mensaje de carga
@@ -271,9 +271,21 @@ document.addEventListener('DOMContentLoaded', () => {
             detailContainer.style.display = 'none';
             servicesContainer.style.display = 'block';
             detailContainer.innerHTML = '';
-            window.scrollTo({ top: servicesContainer.offsetTop - 100, behavior: 'smooth' });
+            // Scroll suave al volver
+            servicesSection.scrollIntoView({ 
+              behavior: 'smooth', 
+              block: 'start' 
+            });
           });
           detailContainer.prepend(backButton);
+
+          // 🔥 NUEVO: Scroll al contenido cargado
+          setTimeout(() => {
+            detailContainer.scrollIntoView({ 
+              behavior: 'smooth', 
+              block: 'start' 
+            });
+          }, 100); // Pequeño delay para asegurar que el contenido se renderizó
 
           // Reactivar animaciones si se usan AOS o similares
           if (typeof AOS !== 'undefined') {
