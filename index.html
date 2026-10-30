@@ -1,1045 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>SebDev CV</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sebastián Arduz · Full-Stack Engineer (TypeScript)</title>
+  <meta name="description" content="Juan Sebastián Arduz Espada, full-stack TypeScript engineer in Sucre, Bolivia (UTC-4). Automation, integrations and outbound systems: 107 merged PRs to a production Next.js, Prisma and Trigger.dev monorepo, 13 scheduled monitors, cold-email infrastructure and lead pipelines.">
+  <link rel="canonical" href="https://sebillasxd2.github.io/PortafolioWeb/">
+  <link rel="alternate" hreflang="en" href="https://sebillasxd2.github.io/PortafolioWeb/">
+  <link rel="alternate" hreflang="es" href="https://sebillasxd2.github.io/PortafolioWeb/es/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Sebastián Arduz · Full-Stack Engineer (TypeScript)">
+  <meta property="og:description" content="Automation, integrations and outbound systems. 107 merged PRs to a production TypeScript monorepo, 13 scheduled monitors, cold-email infrastructure for 9 Microsoft 365 tenants, lead pipelines for 32 clients.">
+  <meta property="og:url" content="https://sebillasxd2.github.io/PortafolioWeb/">
+  <meta property="og:image" content="https://sebillasxd2.github.io/PortafolioWeb/assets/img/sebastian.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
-
-<body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <h1 class="sitename">SebDev</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#github">GitHub</a></li>
-          <li><a href="#resume">Resumen</a></li>
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#portfolio">Portafolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="#top">Sebastián Arduz</a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#experience">Experience</a>
+        <a href="#work">Case studies</a>
+        <a href="#ai">AI workflow</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
       </nav>
-
-      <a class="btn-getstarted" href="#about">Empieza aqui</a>
-
+      <div class="lang"><a href="./" aria-current="true" lang="en">EN</a> <a href="es/" lang="es">ES</a></div>
     </div>
   </header>
 
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/profile/yo.png" alt="" data-aos="fade-in">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2>Hola, Soy Sebastian Arduz</h2>
-            <p>Soy un <span class="typed" data-typed-items="System designer, Freelancer, Fullstack developer,"></span><span class="typed-cursor" aria-hidden="true"></span></p>
-            <div class="social-links">
-              <a href="https://wa.link/o81nq3"><i class="bi bi-whatsapp"></i></a>
-              <a href="https://www.facebook.com/juansebastian.arduzespada/?locale=es_LA"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/_sebillas.ssj_/"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/sebastian-arduz-46863a265/"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
+  <main class="wrap" id="top">
+    <section class="hero" aria-labelledby="name">
+      <div>
+        <h1 id="name">Juan Sebastián Arduz Espada</h1>
+        <p class="role">Full-Stack Engineer (TypeScript) · Automation, integrations and outbound systems</p>
+        <p class="meta">Sucre, Bolivia (UTC-4) · Remote, US Eastern or EU hours · Available now · Spanish native, English C1</p>
+        <div class="actions">
+          <a class="btn primary" href="assets/docs/CV_Sebastian_Arduz_EN.pdf" download><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1v9.2l3-3 .7.7L8 11.6 4.3 7.9l.7-.7 3 3V1h0zM2 13h12v1H2z"/></svg>Download CV (EN)</a>
+          <a class="btn" href="assets/docs/CV_Sebastian_Arduz_ES.pdf" download>CV en español</a>
+          <a class="btn" href="mailto:jsebastianarduzespa@gmail.com"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1 3h14v10H1zm1 1v.4l6 3.8 6-3.8V4zm12 1.6-6 3.8-6-3.8V12h12z"/></svg>Email</a>
+          <a class="btn" href="https://github.com/Sebillasxd2" rel="me noopener" target="_blank"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 .2a8 8 0 0 0-2.5 15.6c.4.1.5-.2.5-.4v-1.5c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8a7.5 7.5 0 0 1 4 0c1.5-1 2.2-.8 2.2-.8.5 1.1.2 1.9.1 2.1.5.5.8 1.2.8 2.1 0 3.1-1.9 3.8-3.6 4 .3.3.6.8.6 1.5v2.3c0 .2.1.5.6.4A8 8 0 0 0 8 .2z"/></svg>GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/sebastian-arduz-46863a265" rel="me noopener" target="_blank"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1 1h14v14H1zm2.2 5.2h2.1V13H3.2zM4.3 3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zM6.7 6.2h2v.9c.3-.5 1-1.1 2.1-1.1 2.2 0 2.6 1.5 2.6 3.3V13h-2.1V9.7c0-.8 0-1.8-1.1-1.8s-1.3.9-1.3 1.8V13H6.7z"/></svg>LinkedIn</a>
         </div>
       </div>
+      <img class="photo" src="assets/img/sebastian.jpg" alt="Portrait of Juan Sebastián Arduz Espada" width="180" height="180">
+    </section>
 
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">About Me</span>
-        <h2>About Me</h2>
-        <p>Soy un Freelancer Independiente que desea emprender en Bolivia y marcar el nuevo mundo de servicios automatizables en Bolivia</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-5">
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="150">
-            <div class="profile-card">
-              <div class="profile-header">
-                <div class="profile-avatar">
-                  <img src="assets/img/profile/Logo.png" class="img-fluid" alt="">
-                  <div class="status-indicator"></div>
-                </div>
-                <h3>Sebastian Arduz</h3>
-                <span class="role">Full Stack Developer</span>
-              
-              </div>
-
-              <div class="profile-stats">
-                <div class="stat-item">
-                  <h4>2</h4>
-                  <p>Projects</p>
-                </div>
-                <div class="stat-item">
-                  <h4>2+</h4>
-                  <p>Years</p>
-                </div>
-                <div class="stat-item">
-                  <h4>1</h4>
-                  <p>Awards</p>
-                </div>
-              </div>
-
-              <div class="profile-actions">
-                <a href="assets\docs\CV_JuanSebastianArduzEspada.pdf" download class="btn-primary"><i class="bi bi-download"></i> Descargar CV</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-8" data-aos="fade-left" data-aos-delay="200">
-            <div class="content-wrapper">
-              <div class="bio-section">
-                <div class="section-tag">About Me</div>
-                <h2>Transformando sueños, ideas y necesacidades en realidad con Tecnologia</h2>
-                <p>Deseo ayudar a toda la gente que desea darse a conocer en este mundo, que desea mejorar su trabajo, o que tiene una idea revolucionaria y depende de la tecnologia para hacerla realidad, soy la persona con la que contaras para que creemos el mejor sitio web, app o sistema para hacer tu sueño realidad.</p>
-                <p>Cualquier necesidad, cualquier deseo, cualquier idea. Si puedes imaginarlo puedes programarlo, conmigo lo haremos realidad.</p>
-              </div>
-
-              <div class="details-grid">
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="250">
-                  <i class="bi bi-briefcase"></i>
-                  <div class="detail-content">
-                    <span>Experience</span>
-                    <strong>2+ Years</strong>
-                  </div>
-                </div>
-
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-mortarboard"></i>
-                  <div class="detail-content">
-                    <span>Degree</span>
-                    <strong>FullStack Developer</strong>
-                  </div>
-                </div>
-
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="350">
-                  <i class="bi bi-geo-alt"></i>
-                  <div class="detail-content">
-                    <span>Based In</span>
-                    <strong>Bolivia, Sucre</strong>
-                  </div>
-                </div>
-
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bi bi-envelope"></i>
-                  <div class="detail-content">
-                    <span>Email</span>
-                    <strong>jsebastianarduzespa@gmail.com</strong>
-                  </div>
-                </div>
-
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="150">
-                  <i class="bi bi-phone"></i>
-                  <div class="detail-content">
-                    <span>Phone</span>
-                    <strong>+591 77124398</strong>
-                  </div>
-                </div>
-
-                <div class="detail-item" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bi bi-calendar-check"></i>
-                  <div class="detail-content">
-                    <span>Availability</span>
-                    <strong>Open to Work</strong>
-                  </div>
-                </div>
-              </div>
-
-              <div class="skills-showcase" data-aos="fade-up" data-aos-delay="250">
-                <div class="section-tag">Core Skills</div>
-                <h3>Technical Proficiency</h3>
-
-                <div class="skills-list skills-animation">
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">React &amp; Next.js</span>
-                      <span class="skill-percent">95%</span>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Node.js &amp; Express</span>
-                      <span class="skill-percent">90%</span>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">UI/UX &amp; Figma</span>
-                      <span class="skill-percent">88%</span>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">MongoDB &amp; PostgreSQL</span>
-                      <span class="skill-percent">85%</span>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Docker &amp; AWS</span>
-                      <span class="skill-percent">80%</span>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+    <section aria-label="Verified numbers">
+      <div class="proof">
+        <div class="stat"><div class="n">107</div><div class="l">PRs merged to a production TypeScript monorepo, Jul to Oct 2026</div></div>
+        <div class="stat"><div class="n">13</div><div class="l">scheduled monitors with Slack and email alerts</div></div>
+        <div class="stat"><div class="n">9</div><div class="l">Microsoft 365 tenants built, about 225 mailboxes with SPF, DKIM and DMARC</div></div>
+        <div class="stat"><div class="n">22,728</div><div class="l">geo-clean contacts in 29 lead builds for 32 clients</div></div>
+        <div class="stat"><div class="n">83</div><div class="l">PRs merged on a hiring funnel and training portal (second contract)</div></div>
+        <div class="stat"><div class="n">378,605</div><div class="l">emails and 302 campaigns classified to find the angle that worked</div></div>
       </div>
+      <p class="proof-note">Every number comes from git history or an internal report. The code lives in private company repositories, so this page shows the systems and the results, not the source.</p>
+    </section>
 
-    </section><!-- /About Section -->
-<!-- Github Section -->
-<section id="github" class="github section">
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="github-section">
-      <div class="section-header" data-aos="fade-right" data-aos-delay="200">
-        <div class="header-content">
-          <span class="section-badge">Mi GitHub</span>
-          <h2>Mi Portafolio de Código</h2>
-          <p>Para tener más información respecto a los trabajos que hice, por favor revisa mi GitHub para ver el código y proyectos en desarrollo.</p>
-          <a href="https://github.com/Sebillasxd2" class="btn-primary" target="_blank">
-            <i class="bi bi-github"></i>
-            Visitar GitHub
-          </a>
-        </div>
+    <section id="about" aria-labelledby="about-h">
+      <h2 id="about-h">Summary</h2>
+      <p class="lead">Full-stack TypeScript engineer. For one year I was the in-house engineer and automation owner of a US B2B outbound agency, working alongside its technical founder: 107 pull requests merged to a production Next.js, Prisma, PostgreSQL and Trigger.dev monorepo, 13 scheduled monitors, root-cause fixes shipped to production, and the GoHighLevel, Instantly and Microsoft 365 automation layer around it. Daily Claude Code user; nothing merges without guard checks, an independent review pass and my own read of the diff. Java and Spring Boot before that.</p>
+    </section>
+
+    <section id="experience" aria-labelledby="exp-h">
+      <h2 id="exp-h">Experience</h2>
+
+      <article class="job">
+        <h3>Full-Stack Engineer (TypeScript) · Leveraged Operations (Local GTM), US, remote contract</h3>
+        <p class="when">December 2025 to October 2026</p>
+        <p>In-house engineer and automation owner, working alongside the technical founder, for an outbound sales operation (cold email on Instantly, SDR cold calling on GoHighLevel, lead generation) serving US local-service businesses. Dec 2025 to Jun 2026: client integrations and data work, Microsoft 365 email infrastructure and lead pipelines. Jul to Oct 2026: 107 merged PRs to the core platform.</p>
+        <ul>
+          <li><strong>107 PRs merged to the production monorepo</strong>: Next.js 16 (App Router) and React 19, oRPC API, Prisma on PostgreSQL (Supabase), Trigger.dev jobs; 19 SQL migrations and 21 guard-check files in a codebase of 306 oRPC procedures and 227 Prisma models. Each PR passed Biome, type-check, build and an independent AI review before merge; each deploy confirmed against the live build SHA.</li>
+          <li><strong>Rebuilt the team chat into a Slack-style chat in 16 PRs over 5 days</strong>: DMs, mentions, reactions, quoted replies, image paste, in-app and OS notifications, WCAG-AA avatar palette, later presence and manager email alerts.</li>
+          <li><strong>Upgraded the SDR lead-approval workflow in 8 PRs merged in one day</strong> (3,843 lines, 74 of 74 guard checks): AI first drafts behind a placeholder guard, reject-reason presets, per-rep 7-day stats, automatic 3-day callback tasks.</li>
+          <li><strong>Wrote 13 scheduled Trigger.dev monitors</strong>: bounce guardrail (alerts above 3% on 200+ sends in 7 days, informs and never auto-pauses), reply-rate decay, lead runway, live campaigns with zero leads, paying clients with zero fulfillment, nightly dial readiness.</li>
+          <li><strong>Root-caused production incidents and shipped tested fixes</strong>: dialer queues leaking other clients' leads (10 leaks confirmed by a per-rep audit), a nightly job that aborted every night but reported COMPLETED for four weeks, 127 renewed domains falsely flagged as expired (now cross-checked over RDAP), and a caller-ID warning backtested against 6,882 real call evaluations with 0 mismatches.</li>
+          <li><strong>Provisioned the cold-email infrastructure</strong>: 9 Microsoft 365 tenants (about 225 shared mailboxes) with SPF, DKIM and DMARC through the Cloudflare API, 26 PowerShell scripts and 2 Playwright bots (Instantly OAuth connection at 97% first-try success); audited 497 domains and 2,646 IPs against DNS blocklists; purged 46,192 non-responders across 42 campaigns by API with a backup first, keeping all 1,538 repliers.</li>
+          <li><strong>Built the lead pipeline from scrape to draft campaign</strong>: D7 and Apify scraping with cost caps, normalization and dedupe, a verification waterfall (MillionVerifier, then a Reacher SMTP pass added after proving the single pass let 57 of 64 real bounces through, then Reoon), LLM scope screening, Instantly draft campaigns by API; 22,728 geo-clean contacts in 29 builds for 32 clients.</li>
+          <li><strong>Campaign and reply tooling</strong>: a copy linter that renders spintax as the prospect sees it (first sweep flagged 71 drafts with 498 failures and exposed an Instantly API bug), the REFERRAL class in the production reply classifier, and a 90-day review with LLM classification (302 campaigns, 378,605 emails, 4,063 replies) showing the referral angle produced 39 of 48 opportunities.</li>
+          <li><strong>Hardened public and paid endpoints</strong>: per-organization daily quotas and a global circuit breaker on paid fan-outs, rate limits and input caps, security headers, rate-limited passcode login.</li>
+          <li><strong>Technical support for the SDR team</strong>: GoHighLevel dialer provisioning with least-privilege scopes, local numbers and custom fields for each cohort, designated approver of the lead and email queues, 10 runbooks and SOPs.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Full-Stack Engineer (Node.js) · Chatter Champions, creator-talent agency, remote contract</h3>
+        <p class="when">May to August 2026, in parallel with the role above</p>
+        <p>Hiring funnel and training portal for a remote chat-support workforce: Express, PostgreSQL (Supabase) with Google Sheets dual-write, Airtable, GoHighLevel, Trigger.dev, xAI Grok, Resend, Telegram, Dokploy.</p>
+        <ul>
+          <li><strong>83 merged PRs</strong> (100 commits on main, +11.3k lines) across product features, automations and admin tooling under a protected-main PR workflow.</li>
+          <li><strong>Fixed the incident behind a 5-of-8 interview no-show day</strong>: reminder emails carried broken Google Meet links. Created the missing custom field via API, backfilled 28 bookings and shipped the Trigger.dev fix (meeting-link sync plus a one-booking-per-contact rule).</li>
+          <li><strong>Built the AI interview simulator and the interview-integrity layer</strong>: capture-only chat with a cost cap, transcript review, drop-off and abandonment recovery jobs, no-show detection with a daily digest, auto-ban of rejected applicants, an intake screen-out rolled out as an A/B test.</li>
+          <li><strong>Admin and HR tooling</strong>: manager role with gated writes, hired-by-contract-date view, trainee-completion view, daily HR alerts, Airtable sync, shift template editor.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Freelance Software Developer (Java, Spring Boot) · Sucre, Bolivia</h3>
+        <p class="when">November 2024 to November 2025</p>
+        <ul>
+          <li><strong>Car dealership management system</strong> (Feb to Apr 2025): JavaFX desktop app on Spring Boot (Spring Data JPA, Spring Security) and MySQL, with full CRUD for customers, vehicles, quotes, maintenance records and reminders. <a href="https://github.com/Sebillasxd2/ConcesionariaVehiculos" target="_blank" rel="noopener">Source on GitHub</a>.</li>
+          <li><strong>Private clinic records system</strong> (Nov 2024 to Jan 2025): JavaFX desktop app on Spring Boot and MySQL for patient records, clinical history, vital signs and search. <a href="https://github.com/Sebillasxd2/ConsultorioMedico" target="_blank" rel="noopener">Source on GitHub</a>.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="work" aria-labelledby="work-h">
+      <h2 id="work-h">Case studies <small>six systems, with the numbers behind them</small></h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Scheduled monitors and alerting on Trigger.dev</h3>
+          <p>Thirteen scheduled jobs that catch silent failures: campaigns running out of leads, bounce spikes, missed domain renewals, jobs that abort but report success. Two severity tiers, 24-hour de-duplication, guard checks with control cases.</p>
+          <details><summary>Details</summary>
+            <ul>
+              <li>Domain renewal sync cross-checked over RDAP: a shadow run took the "expired" count from 128 to 1 (127 domains carrying 281 active mailboxes).</li>
+              <li>A nightly job had aborted every night for four weeks while reading COMPLETED; aborts now fail visibly without a retry storm.</li>
+              <li>Caller-ID rule backtested against 6,882 real call evaluations with 0 mismatches before going live.</li>
+              <li>Lesson: alert on rates, not counts, and make "clear" distinguishable from "broken".</li>
+            </ul>
+          </details>
+          <div class="tags"><span class="tag">TypeScript</span><span class="tag">Trigger.dev</span><span class="tag">Prisma</span><span class="tag">PostgreSQL</span><span class="tag">Slack</span></div>
+        </article>
+
+        <article class="card">
+          <h3>A Slack-style team chat for an SDR academy</h3>
+          <p>Sixteen merged PRs in five days: direct messages, mentions, reactions, quoted replies, image paste, notifications and presence inside an internal Next.js portal, with the access rule enforced on every call and guarded by a check file.</p>
+          <details><summary>Details</summary>
+            <ul>
+              <li>Rooms derived from the user's profile, no membership table; DMs keyed by the two sorted user ids so both sides open the same room without a migration.</li>
+              <li>Notifications with zero extra requests: the portal already polled unread state, so the tab title, a toast, an OS notification and a chime hang off that poll.</li>
+              <li>Presence shipped behind a kill switch that is on by default, because production environment variables were out of reach.</li>
+            </ul>
+          </details>
+          <div class="tags"><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">oRPC</span><span class="tag">TanStack Query</span><span class="tag">R2</span></div>
+        </article>
+
+        <article class="card">
+          <h3>Lead pipeline and email deliverability</h3>
+          <p>From sourcing to a draft campaign: Google-Maps-based search and Apify with cost caps, normalization and dedupe, a measured verification waterfall, an AI scope filter, Instantly drafts by API and a copy linter. Plus the Microsoft 365 infrastructure the emails go out from.</p>
+          <details><summary>Details</summary>
+            <ul>
+              <li>A single verifier pass let 57 of 64 real bounces through, so a second SMTP pass was added (it catches about 17% of bounces) and a third tool tested against labeled ground truth, 25 of 25.</li>
+              <li>22,728 geo-clean contacts in 29 builds for 32 clients, 27 of 29 passing a 40-row spot-check with controls.</li>
+              <li>Nine Microsoft 365 tenants from zero, about 225 shared mailboxes, DNS written through the Cloudflare API, 26 PowerShell scripts, 2 Playwright bots, OAuth connection at 97% first-try success.</li>
+              <li>DNSBL audit of 497 domains and 2,646 relay IPs: the listings sat on domains, not on sending IPs. Placement study over about 1.5M emails: 47.4% spam when SPF or DMARC failed versus 3.2% when they passed.</li>
+              <li>Self-hosted contact database: PostgreSQL 16 behind PostgREST and Nginx with TLS, one query tuned from 10.3 s to 0.26 s.</li>
+            </ul>
+          </details>
+          <div class="tags"><span class="tag">Node.js</span><span class="tag">PowerShell</span><span class="tag">Playwright</span><span class="tag">Instantly API</span><span class="tag">Cloudflare API</span><span class="tag">Microsoft 365</span></div>
+        </article>
+
+        <article class="card">
+          <h3>Dialer operations on GoHighLevel</h3>
+          <p>The engineering behind a commission-based SDR team's power dialer: queue loads per shift, a nightly scheduler, caller-ID rules, provisioning and real-time support.</p>
+          <details><summary>Details</summary>
+            <ul>
+              <li>Queues leaking other clients' leads: a 36-agent adversarial audit confirmed 10 distinct leaks; the fix shipped the same day it was measured, after three review rounds.</li>
+              <li>Caller ID: 93% of calls were going out on the shared default line; after correcting 24 briefs and rebuilding the warning for Local Presence Dialing, default-line use fell to 0 to 4%.</li>
+              <li>Scheduler guards: never auto-dial a client without a number or a brief, respect booked time off, list every skip in the nightly email.</li>
+              <li>Provisioning: local numbers bought and assigned through the API, least-privilege users for each cohort, an offboarding script that revokes access across six surfaces and is dry-run by default.</li>
+            </ul>
+          </details>
+          <div class="tags"><span class="tag">GoHighLevel API</span><span class="tag">Trigger.dev</span><span class="tag">Prisma</span><span class="tag">Next.js</span></div>
+        </article>
+
+        <article class="card">
+          <h3>How I work with Claude Code</h3>
+          <p>AI makes you faster; tests, reviews and honest numbers make you right. Guard checks with control cases, adversarial multi-agent reviews before merge, type-check plus Biome plus build, and a deploy confirmed against the live build SHA.</p>
+          <details><summary>Details</summary>
+            <ul>
+              <li>A 15-agent review of a lead-magnet calculator found 6 real bugs in the first commit, all fixed before merge.</li>
+              <li>Authored skills with their own regression suites: a cold-email copy reviewer with the company's 13 hard rules and a 9-case harness graded against 365 real campaigns; a positive-reply triage skill. 62 ops scripts that load their own keys, 10 role runbooks.</li>
+              <li>A monorepo index (306 oRPC procedures, 227 Prisma models) that cut the agent bootstrap file from 921 to 463 lines, and a code graph measured in a 16-run A/B: it helps "who calls this" lookups and hurts end-to-end traces, so it is used only where it wins.</li>
+              <li>Multi-agent workflows where one pass is not enough: 10 scoping agents plus 2 auditors, 24 judges for copy QA, 36 agents for the dialer audit.</li>
+            </ul>
+          </details>
+          <div class="tags"><span class="tag">Claude Code</span><span class="tag">Anthropic API</span><span class="tag">LLM-as-judge</span><span class="tag">CI guard checks</span></div>
+        </article>
+
+        <article class="card">
+          <h3>Hiring funnel and training portal (Chatter Champions)</h3>
+          <p>Application, test, interview, offer and contract, then a six-day training portal with an AI practice chat, for a remote chat-support workforce. 83 merged PRs in under three months, in parallel with my main role.</p>
+          <details><summary>Details</summary>
+            <ul>
+              <li>Fast-track interview simulator: capture-only AI chat with a per-run cost cap, transcript review with a hire or not-a-fit decision, drop-off recovery and a five-day abandonment job. Twenty PRs in two days once the design was agreed.</li>
+              <li>Interview integrity: serial-rescheduler tracking, automatic no-show detection with a daily digest, auto-ban of rejected or no-show applicants, an intake screen-out rolled out as an A/B from 30% to 100% of traffic.</li>
+              <li>The incident: five of eight interviews no-showed because reminder emails carried a broken meeting link. Confirmed the data, created the missing custom field through the API, backfilled 28 bookings, shipped the fix, and corrected my own first status message with the client the same day.</li>
+            </ul>
+          </details>
+          <div class="tags"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">PostgreSQL</span><span class="tag">Trigger.dev</span><span class="tag">GoHighLevel</span><span class="tag">xAI Grok</span></div>
+        </article>
       </div>
+    </section>
 
-      <!-- Stats Grid (Opcional) -->
-      <div class="github-stats" data-aos="fade-up" data-aos-delay="300">
-        <div class="github-stat-item">
-          <div class="stat-icon">
-            <i class="bi bi-code-slash"></i>
-          </div>
-          <div class="stat-number">15+</div>
-          <div class="stat-label">Proyectos</div>
-        </div>
-        <div class="github-stat-item">
-          <div class="stat-icon">
-            <i class="bi bi-star"></i>
-          </div>
-          <div class="stat-number">50+</div>
-          <div class="stat-label">Contribuciones</div>
-        </div>
-        <div class="github-stat-item">
-          <div class="stat-icon">
-            <i class="bi bi-git"></i>
-          </div>
-          <div class="stat-number">8+</div>
-          <div class="stat-label">Tecnologías</div>
-        </div>
+    <section id="ai" aria-labelledby="ai-h">
+      <h2 id="ai-h">AI workflow, in one paragraph</h2>
+      <p class="lead">I write the spec first, let agents attack it for scope and data risks, then implement in independent slices with tests while I review diffs instead of typing. Schema, state machines and external integrations stay under my own hands; agents own the plumbing, UI states and tests. Everything merges behind CI guard checks and a judge panel with different lenses, and anything the agents could not test gets a monitor instead of hope. Every line that reaches production has been read by me.</p>
+    </section>
+
+    <section id="skills" class="skills" aria-labelledby="skills-h">
+      <h2 id="skills-h">Skills</h2>
+      <dl>
+        <dt>Languages</dt><dd>TypeScript / JavaScript (Node.js), SQL, Java, Python, PowerShell, Bash</dd>
+        <dt>Backend and data</dt><dd>Next.js 16 (App Router), REST APIs, oRPC (on Hono), Express, Prisma, PostgreSQL (Supabase, PostgREST), MySQL, Spring Boot, background jobs and scheduled tasks (Trigger.dev), webhooks, OAuth integrations, data pipelines (ETL, dedupe, verification)</dd>
+        <dt>Frontend</dt><dd>React, Tailwind CSS, shadcn/ui, responsive UI, WCAG-AA color contrast</dd>
+        <dt>Outbound and GTM systems</dt><dd>Cold-email infrastructure (Microsoft 365 / Exchange Online tenants, mailbox provisioning, warm-up, SPF/DKIM/DMARC, DNSBL audits, inbox placement analysis), Instantly API v2, email verification waterfall (MillionVerifier, Reacher, Reoon), list building and ICP scoping (D7, Apify, Clay, LLM scope filter), reply classification and routing, copy QA and spintax linting, GoHighLevel CRM and power dialer (provisioning, workflows, custom fields, Local Presence Dialing)</dd>
+        <dt>AI engineering</dt><dd>Claude Code (skills, hooks, multi-agent workflows, scheduled routines), Anthropic and OpenAI APIs, xAI Grok, prompt engineering, LLM-as-judge evaluations</dd>
+        <dt>Engineering practice and infra</dt><dd>Git / GitHub PR workflow, code review, CI/CD (GitHub Actions), automated guard checks, Biome, pnpm monorepos, Playwright, Dokploy (Docker-based deploys), Nginx, Linux VPS (Hetzner), Cloudflare API, Airtable, Google Sheets / Drive APIs, Resend, Slack, Telegram, production monitoring and alerting, incident response, technical documentation (SOPs, runbooks)</dd>
+      </dl>
+    </section>
+
+    <section id="education" aria-labelledby="edu-h">
+      <h2 id="edu-h">Education and certifications</h2>
+      <ul>
+        <li><strong>Systems Engineering, Universidad San Francisco Xavier de Chuquisaca (Sucre)</strong>: in progress, 8th semester, degree expected 2027. Current coursework includes an AI course built on PyTorch (<a href="https://github.com/Sebillasxd2/SIS-420---IA" target="_blank" rel="noopener">course repo</a>).</li>
+        <li><strong>Oracle Next Education F2 T6, Back-end track</strong> (Oracle + Alura), 2024: Java, Spring Boot, REST APIs, databases.</li>
+        <li><strong>English C1</strong>, Centro Boliviano Americano (CBA), full program graduate, 2020. Spanish native.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h">Contact</h2>
+      <p>Remote roles and contracts, US Eastern or EU hours, available immediately. The fastest way to reach me is email.</p>
+      <div class="actions">
+        <a class="btn primary" href="mailto:jsebastianarduzespa@gmail.com">jsebastianarduzespa@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/sebastian-arduz-46863a265" target="_blank" rel="me noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/Sebillasxd2" target="_blank" rel="me noopener">GitHub</a>
+        <a class="btn" href="assets/docs/CV_Sebastian_Arduz_EN.pdf" download>CV (EN, PDF)</a>
+        <a class="btn" href="assets/docs/CV_Sebastian_Arduz_ES.pdf" download>CV (ES, PDF)</a>
       </div>
-
-      <!-- Featured Repositories (Opcional) -->
-      <div class="featured-repos" data-aos="fade-up" data-aos-delay="400">
-        <h3>Proyectos Destacados</h3>
-        <div class="repo-grid">
-          <div class="repo-card">
-            <h4>Literalura App</h4>
-            <p>Aplicación Spring Boot para gestión de libros con consumo de APIs externas y base de datos.</p>
-            <div class="repo-meta">
-              <span><i class="bi bi-star"></i> 12</span>
-              <span><i class="bi bi-diagram-2"></i> Java</span>
-            </div>
-            <a href="https://github.com/Sebillasxd2/Literalura" class="repo-link" target="_blank">
-              Ver código <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-          <div class="repo-card">
-            <h4>Portfolio Web</h4>
-            <p>Sitio web personal desarrollado con tecnologías modernas y diseño responsive.</p>
-            <div class="repo-meta">
-              <span><i class="bi bi-star"></i> 8</span>
-              <span><i class="bi bi-diagram-2"></i> HTML/CSS/JS</span>
-            </div>
-            <a href="https://github.com/Sebillasxd2" class="repo-link" target="_blank">
-              Ver código <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><!-- /Github Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-5">
-          <div class="col-lg-6">
-            <div class="experience-section">
-              <div class="section-header" data-aos="fade-right" data-aos-delay="200">
-                <div class="header-content">
-                  <span class="section-badge">Experience</span>
-                  <h2>Camino Profesional</h2>
-                  <p>Empece dominando los sitios web y el manejo de bases de datos, para luego adentrarme a Java, el consumo de APIS, desarrollo de apps, docker, google cloud y AWS.</p>
-                </div>
-              </div>
-
-              <div class="experience-cards">
-                <div class="exp-card featured" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="card-header">
-                    <div class="company-logo">
-                      <i class="bi bi-buildings"></i>
-                    </div>
-                    <div class="period-badge">Current</div>
-                  </div>
-                  <div class="card-body">
-                    <h3>Junior Creative Freelancer</h3>
-                    <p class="company-name">Inovacion Actual</p>
-                    <span class="duration">2025 - Present</span>
-                    <p class="description">desarrollando mi propio modelos SaaS automatizables</p>
-                    <div class="skills-tags">
-                      <span class="skill-tag">Leadership</span>
-                      <span class="skill-tag">Strategy</span>
-                      <span class="skill-tag">Innovation</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="exp-card" data-aos="zoom-in" data-aos-delay="350">
-                  <div class="card-header">
-                    <div class="company-logo">
-                      <i class="bi bi-laptop"></i>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <h3>Creacion de ERP Empresarial</h3>
-                    <p class="company-name">CrediAutos</p>
-                    <span class="duration">2025 - Febrero a Abril</span>
-                    <p class="description">Desarrollo de sistema Entero para manejo de ventas, atencion al cliente, control de stock, control de empleados, recordatorios y gastos</p>
-                  </div>
-                </div>
-
-                <div class="exp-card" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="card-header">
-                    <div class="company-logo">
-                      <i class="bi bi-palette"></i>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <h3>Sistema ERP</h3>
-                    <p class="company-name">Consultorio Privado</p>
-                    <span class="duration">2024 Noviembre - 2025 Enero</span>
-                    <p class="description">App para consultorio privado que registre las consultas de los pacientes con formulario personalizado, registro y busqueda de pacientes con historiales clinicos guardados y CRUD incluido.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="education-section">
-              <div class="section-header" data-aos="fade-left" data-aos-delay="200">
-                <div class="header-content">
-                  <span class="section-badge">Education</span>
-                  <h2>Simon Rodriguez</h2>
-                  <p>Graduado en 2020 de el colegio Simon Rodriguez</p>
-                </div>
-              </div>
-
-              <div class="education-timeline" data-aos="fade-left" data-aos-delay="300">
-                <div class="timeline-track">
-                  <div class="timeline-item">
-                    <div class="timeline-marker">
-                      <i class="bi bi-mortarboard-fill"></i>
-                    </div>
-                    <div class="timeline-content">
-                      <div class="education-meta">
-                        <span class="year-range">2020-2024</span>
-                        <span class="degree-level">Certificados</span>
-                      </div>
-                      <h4>English Level-C1 profficiency </h4>
-                      <p class="institution">CBA</p>
-                      <p class="description">Graduado del CBA con certificado de las 3 categorias (niño - adolecente - adulto) y con un certificado de proficiencia que determina mi nivel de ingles como avanzado.</p>
-
-                    </div>
-                  </div>
-
-                  <div class="timeline-item">
-                    <div class="timeline-marker">
-                      <i class="bi bi-book"></i>
-                    </div>
-                    <div class="timeline-content">
-                      <div class="education-meta">
-                        <span class="year-range">2024</span>
-                        <span class="degree-level">Certificacion en html, css, js and JAVA</span>
-                      </div>
-                      <h4>certificado como Fullstack</h4>
-                      <p class="institution">Alura - Oracle One</p>
-                      <p class="description">Conclui Intensivo que me enseño un mejor manejo de sitios web pero me introdujo al desarrollo de apps, con bases de datos, APIS, seguridad basica y manejo de datos en la nube</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Resume Section -->
-
-<!-- Services Section -->
-<section id="services" class="services section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <span class="subtitle">Servicios</span>
-    <h2>Servicios</h2>
-    <p>Ofrezco soluciones digitales completas: desarrollo de aplicaciones, páginas web, automatizaciones y sistemas personalizados para empresas o proyectos personales.</p>
-  </div>
-
-  <!-- 🔹 Contenedor principal de todos los servicios -->
-  <div class="container" id="services-container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row gy-4">
-
-      <!-- Página Web -->
-      <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-        <div class="service-item">
-          <div class="icon-wrapper">
-            <i class="bi bi-window"></i>
-          </div>
-          <h4>Página Web</h4>
-          <p>Presencia profesional en internet para tu negocio o marca personal.</p>
-          <a href="assets/services/web.html" class="read-more ajax-link">
-            <span>Explorar</span>
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Aplicación Web -->
-      <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="150">
-        <div class="service-item">
-          <div class="icon-wrapper">
-            <i class="bi bi-browser-chrome"></i>
-          </div>
-          <h4>Aplicación Web</h4>
-          <p>Plataformas en línea donde los usuarios pueden interactuar o realizar operaciones.</p>
-          <a href="assets/services/webapp.html" class="read-more ajax-link">
-            <span>Explorar</span>
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Sistema POS -->
-      <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-        <div class="service-item featured">
-          <div class="featured-tag">Destacado</div>
-          <div class="icon-wrapper">
-            <i class="bi bi-shop"></i>
-          </div>
-          <h4>Sistema POS</h4>
-          <p>Control total de ventas, inventarios, gastos y personal para tu negocio.</p>
-          <a href="assets/services/sistemapos.html" class="read-more ajax-link">
-            <span>Explorar</span>
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Automatización -->
-      <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="250">
-        <div class="service-item">
-          <div class="icon-wrapper">
-            <i class="bi bi-gear"></i>
-          </div>
-          <h4>Automatizaciones</h4>
-          <p>Automatiza tareas repetitivas y ahorra tiempo en tu trabajo diario.</p>
-          <a href="assets/services/automatizacion.html" class="read-more ajax-link">
-            <span>Explorar</span>
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Inteligencia Artificial -->
-      <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-        <div class="service-item">
-          <div class="icon-wrapper">
-            <i class="bi bi-cpu"></i>
-          </div>
-          <h4>Inteligencia Artificial</h4>
-          <p>Chatbots o sistemas inteligentes que responden en base a tu negocio.</p>
-          <a href="assets/services/ia.html" class="read-more ajax-link">
-            <span>Explorar</span>
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Machine Learning -->
-      <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="350">
-        <div class="service-item">
-          <div class="icon-wrapper">
-            <i class="bi bi-graph-up"></i>
-          </div>
-          <h4>Machine Learning</h4>
-          <p>Modelos simples de predicción y análisis de datos para tu negocio.</p>
-          <a href="assets/services/machineLearning.html" class="read-more ajax-link">
-            <span>Explorar</span>
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Aplicación Móvil -->
-      <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-        <div class="service-item">
-          <div class="icon-wrapper">
-            <i class="bi bi-phone"></i>
-          </div>
-          <h4>Aplicaciones Móviles</h4>
-          <p>Apps para Android o iOS que permiten interactuar con tus usuarios.</p>
-          <a href="assets/services/appmovil.html" class="read-more ajax-link">
-            <span>Explorar</span>
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Aplicación de Escritorio -->
-      <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="450">
-        <div class="service-item">
-          <div class="icon-wrapper">
-            <i class="bi bi-pc-display"></i>
-          </div>
-          <h4>Aplicaciones de Escritorio</h4>
-          <p>Software diseñado para tu computadora, empresa o proyectos personales.</p>
-          <a href="assets/services/appescritorio.html" class="read-more ajax-link">
-            <span>Explorar</span>
-            <i class="bi bi-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- CTA inferior -->
-    <div class="row mt-5">
-      <div class="col-12" data-aos="fade-up" data-aos-delay="200">
-        <div class="cta-box">
-          <div class="row align-items-center">
-            <div class="col-lg-8">
-              <h3>¿Quieres colaborar conmigo?</h3>
-              <p>Contáctame y cuéntame qué habilidades puedes aportar a mis proyectos.</p>
-            </div>
-          
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- 🔹 Contenedor donde se cargará el contenido AJAX -->
-  <div class="container" id="service-detail" style="display:none;" data-aos="fade-up"></div>
-
-</section>
-
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Portfolio</span>
-        <h2>Portafolio</h2>
-        <p>Una vista simple de lo ultimo que cree, visita mi github para ver todo.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
-            <li data-filter="*" class="filter-active">All Work</li>
-            <li data-filter=".filter-trabajo">Trabajo</li>
-            <li data-filter=".filter-universidad">Universidad</li>
-            <li data-filter=".filter-bootcamp">Boot Camp</li>
-            <li data-filter=".filter-proyectos">Proyectos Personales</li>
-          </ul>
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-trabajo">
-              <div class="portfolio-card">
-                <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/Consultorio_Medico.png" alt="Creative Project" class="img-fluid" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                      <span class="project-category">Trabajo</span>
-                      <h4>java experience</h4>
-                    </div>
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/Consultorio_Medico.png" class="glightbox portfolio-link">
-                        <i class="bi bi-plus-lg"></i>
-                      </a>
-                    <a href="#github" class="portfolio-details github-link">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-meta">
-                  <div class="project-tags">
-                    <span class="tag">Java</span>
-                    <span class="tag">Springboot</span>
-                    <span class="tag">MySQL</span>
-                  </div>
-                  <div class="project-year">2024</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-trabajo">
-              <div class="portfolio-card">
-                <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/App_Automoviles.jpg" alt="Digital Project" class="img-fluid" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                      <span class="project-category">Trabajo</span>
-                      <h4>managment, java, engineering experience</h4>
-                    </div>
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/App_Automoviles.jpg" class="glightbox portfolio-link">
-                        <i class="bi bi-plus-lg"></i>
-                      </a>
-                    <a href="#github" class="portfolio-details github-link">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-meta">
-                  <div class="project-tags">
-                    <span class="tag">java</span>
-                    <span class="tag">springboot</span>
-                    <span class="tag">MySQL</span>
-                  </div>
-                  <div class="project-year">2025</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-trabajo">
-              <div class="portfolio-card">
-                <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/CajaVentas.png" alt="Strategy Project" class="img-fluid" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                      <span class="project-category">Trabajo</span>
-                      <h4>Market Positioning</h4>
-                    </div>
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/CajaVentas.png" class="glightbox portfolio-link">
-                        <i class="bi bi-plus-lg"></i>
-                      </a>
-                      <a href="#github" class="portfolio-details github-link">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-meta">
-                  <div class="project-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">sqlite</span>
-                  </div>
-                  <div class="project-year">2025</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bootcamp">
-              <div class="portfolio-card">
-                <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/Encriptado.png" alt="Development Project" class="img-fluid" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                      <span class="project-category">Boot camp</span>
-                      <h4>js experience</h4>
-                    </div>
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/Encriptado.png" class="glightbox portfolio-link">
-                        <i class="bi bi-plus-lg"></i>
-                      </a>
-                    <a href="#github" class="portfolio-details github-link">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-meta">
-                  <div class="project-tags">
-                    <span class="tag">javascript</span>
-                    <span class="tag">html/css</span>
-                  </div>
-                  <div class="project-year">2024</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bootcamp">
-              <div class="portfolio-card">
-                <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/conversor_monedas.jpg" alt="Creative Project" class="img-fluid" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                      <span class="project-category">Boot camp</span>
-                      <h4>java experience</h4>
-                    </div>
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/conversor_monedas.jpg" class="glightbox portfolio-link">
-                        <i class="bi bi-plus-lg"></i>
-                      </a>
-                      <a href="#github" class="portfolio-details github-link">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-meta">
-                  <div class="project-tags">
-                    <span class="tag">java</span>
-                    <span class="tag">externalApi</span>
-                  </div>
-                  <div class="project-year">2024</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bootcamp">
-              <div class="portfolio-card">
-                <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/BookWeb.jpg" alt="Digital Project" class="img-fluid" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                      <span class="project-category">Boot camp</span>
-                      <h4>java Experience</h4>
-                    </div>
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/BookWeb.jpg" class="glightbox portfolio-link">
-                        <i class="bi bi-plus-lg"></i>
-                      </a>
-                    <a href="#github" class="portfolio-details github-link">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-meta">
-                  <div class="project-tags">
-                    <span class="tag">Java</span>
-                    <span class="tag">Api Externa</span>
-                  </div>
-                  <div class="project-year">2024</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-universidad">
-              <div class="portfolio-card">
-                <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/PaginaUni.png" alt="Digital Project" class="img-fluid" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                      <span class="project-category">university work/span>
-                      <h4>php Experience</h4>
-                    </div>
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/PaginaUni.png" class="glightbox portfolio-link">
-                        <i class="bi bi-plus-lg"></i>
-                      </a>
-                      <a href="#github" class="portfolio-details github-link">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-meta">
-                  <div class="project-tags">
-                    <span class="tag">php</span>
-                    <span class="tag">xampp</span>
-                  </div>
-                  <div class="project-year">2025</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-universidad">
-              <div class="portfolio-card">
-                <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/ecommerce.jpg" alt="Digital Project" class="img-fluid" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                      <span class="project-category">university work/span>
-                      <h4>java Experience</h4>
-                    </div>
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/ecommerce.jpg class="glightbox portfolio-link">
-                        <i class="bi bi-plus-lg"></i>
-                      </a>
-                     <a href="#github" class="portfolio-details github-link">
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-meta">
-                  <div class="project-tags">
-                    <span class="tag">Java</span>
-                    <span class="tag">js</span>
-                  </div>
-                  <div class="project-year">2025</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bootcamp">
-              <div class="portfolio-card">
-                <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/Foros.jpg" alt="Digital Project" class="img-fluid" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-info">
-                      <span class="project-category">bootcamp work/span>
-                      <h4>java Experience</h4>
-                    </div>
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/Foros.jpg class="glightbox portfolio-link">
-                        <i class="bi bi-plus-lg"></i>
-                      </a>
-                      <a href="#github" class="portfolio-details github-link"></a>
-                        <i class="bi bi-arrow-right"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-meta">
-                  <div class="project-tags">
-                    <span class="tag">Java</span>
-                    <span class="tag">springboot</span>
-                  </div>
-                  <div class="project-year">2025</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-<!-- Contact Section -->
-<section id="contact" class="contact section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <span class="subtitle">Contacto</span>
-    <h2>Contacto</h2>
-    <p>Enviame un mensaje por tu red de confianza y programemos una reunión para actualizar tu negocio o hacer real tu sueño</p>
-  </div>
-
-  <div class="container">
-    <div class="row gy-4">
-
-      <div class="col-lg-4">
-        <!-- WhatsApp Item -->
-        <div class="info-item" data-aos="fade-up" data-aos-delay="100">
-          <div class="icon-wrapper">
-            <i class="bi bi-whatsapp"></i>
-          </div>
-          <div>
-            <h3>WhatsApp</h3>
-            <p>
-              <a href="https://wa.link/o81nq3" target="_blank" style="color: var(--default-color); text-decoration: none;">
-                Enviar mensaje directo
-              </a>
-            </p>
-          </div>
-        </div>
-
-        <!-- Email Item -->
-        <div class="info-item" data-aos="fade-up" data-aos-delay="200">
-          <div class="icon-wrapper">
-            <i class="bi bi-envelope"></i>
-          </div>
-          <div>
-            <h3>Correo Electrónico</h3>
-            <p>
-              <a href="mailto:jsebastianarduzespa@gmail.com" style="color: var(--default-color); text-decoration: none;">
-                jsebastianarduzespa@gmail.com
-              </a>
-            </p>
-          </div>
-        </div>
-
-        <!-- Información de Cotización -->
-        <div class="info-item" data-aos="fade-up" data-aos-delay="300" id="quotation-info" style="display: none;">
-          <div class="icon-wrapper">
-            <i class="bi bi-clipboard-check"></i>
-          </div>
-          <div>
-            <h3>Cotización Solicitada</h3>
-            <p id="quotation-details">Servicio seleccionado</p>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-lg-8">
-        <form id="contact-form" data-aos="fade-up" data-aos-delay="400">
-          <div class="row gy-4">
-            <div class="col-md-6">
-              <input type="text" name="from_name" class="form-control" placeholder="Tu Nombre" required>
-            </div>
-            <div class="col-md-6">
-              <input type="email" class="form-control" name="from_email" placeholder="Tu Email" required>
-            </div>
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
-            </div>
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" id="message" rows="6" placeholder="Mensaje" required></textarea>
-            </div>
-            <div class="col-md-12 text-center">
-              <div class="loading" style="display: none;">Enviando mensaje...</div>
-              <div class="error-message" style="display: none;"></div>
-              <div class="sent-message" style="display: none;">¡Tu mensaje fue enviado! Te responderé pronto.</div>
-              <button type="submit">Enviar mensaje</button>
-            </div>
-          </div>
-        </form>
-      </div>
-
-    </div>
-  </div>
-
-</section>
-
+    </section>
   </main>
 
-  <footer id="footer" class="footer">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">SebDevs</span>
-          </a>
-          <p>En busqueda de darte el mejor servicio posible y mejorar la productividad de tu negocio o cumplir tus sueños que necesiten de este hermoso mundo tecnologico</p>
-          <div class="social-links d-flex mt-4">
-            <a href="https://x.com/Sebillasxd2"><i class="bi bi-twitter-x"></i></a>
-            <a href="https://www.facebook.com/juansebastian.arduzespada?locale=es_LA"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/_sebillas.ssj_/"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/sebastian-arduz-46863a265/"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-       
-
-
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Craftivo</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+  <footer>
+    <div class="wrap">
+      © 2026 Juan Sebastián Arduz Espada · Static site, no trackers · <a href="https://github.com/Sebillasxd2/PortafolioWeb" target="_blank" rel="noopener">Source</a> · <a href="es/" lang="es">Versión en español</a>
     </div>
-
   </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <!-- EmailJS SDK -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script src="assets/js/email-config.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>
